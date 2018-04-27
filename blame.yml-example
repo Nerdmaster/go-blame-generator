@@ -1,0 +1,35 @@
+people:
+  - name: Joebob
+    pronoun: he
+  - name: John
+    pronoun: he
+  - name: Jane Doe
+    pronoun: she
+  - name: "Mindy \"I took mommy's pills\" Smith"
+    pronoun: she
+  - name: "Nerdmaster"
+    pronoun: he
+apps:
+  - our homepage
+  - Drupal
+  - Wordpress
+  - Awesometastic App A
+  - The Blame Generator
+reasons:
+  - "{{messed|screwed}} up the UI"
+  - "didn't {{write|develop|design|build}} future-proof {{code|services|components}}"
+  - "let {{wiki|samba|word}} documents get out of sync with the application documentation"
+  - "went {{way |}}over estimate on {{all|most|too many|several key}} tasks"
+  - "didn't spend enough time communicating with {{the lead|the PM|peers|the client}}"
+  - "{{wasted|spent|took}} too much time communicating {{unnecessary|irrelevant}} information to {{the lead|the PM|peers|the client}}"
+  - "wasted time building {{services|a reusable component}} the clients didn't approve"
+  - "{{forgot to|refused to|didn't}} follow the {{code|design|peer review|testing}} process properly"
+  - "produced mock-ups that didn't match the {{project's|feature's|}} final UI"
+  - "didn't update Redmine tickets in a timely manner"
+  - "{{wasted time looking for existing libraries instead of just building one|wasted time building a library instead of looking for existing ones}}"
+  - "{{wasn't able to|chose not to|refused to|wouldn't}} {{respect|follow}} the chain of command{{ properly|}}"
+formats:
+  - "The problem with {{app}} was {{person}}, who {{reason}}."
+  - "We {{went over budget|missed the deadline|dropped the ball}} on {{app}}{{ mostly| partially| primarily|}} because of {{person}}.  {{Pronoun}} {{reason}}."
+  - "{{App}} could have been delivered on time and under budget.  Unfortunately, {{person}} {{reason}}, and then {{pronoun}} {{reason}}!"
+  - "{{I believe|It's clear|Management has determined}} that {{app}} could have been {{more performant|less prone to crash|better all around}} but for {{person}}.  {{At the beginning of the project|Early on|For starters}}, {{pronoun}} {{reason}}.  Even after repeated warnings, {{pronoun}} still {{reason}}."
