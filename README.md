@@ -34,8 +34,10 @@ instead of looking for existing ones.
 Usage
 -----
 
-    go get github.com/Nerdmaster/go-blame-gen
-    blame-gen
+    go get github.com/Nerdmaster/go-blame-generator
+    cd $GOPATH/src/github.com/Nerdmaster/go-blame-generator
+    cp blame.yml-example blame.yml
+    $GOPATH/bin/go-blame-generator
 
 Acknowledgements
 ----------------
